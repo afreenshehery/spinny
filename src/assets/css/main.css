@@ -1,0 +1,165 @@
+    *{
+        margin:0;
+        padding:0;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        font-family:'Fira Sans', sans-serif;
+        background:#4E9ED3 ;
+    }
+
+
+
+
+    .main-head{
+        
+        text-align: center;
+        
+
+
+        
+    }
+
+        
+        
+    
+    h1{
+        text-align: center;
+        
+
+    }
+    
+                 .content-wrap aside{
+                            -webkit-box-flex:1;
+                            -ms-flex:1 1 250px;
+                            flex:1 1 250px;
+                            max-width:250px;
+                    padding-right:16px}
+
+                    .content-wrap aside nav{
+                        padding-left:16px;
+                        padding-right:16px;
+                        }
+
+            
+
+                    .content-wrap aside nav a{
+                        display:block;
+                        padding:8px 16px;
+                        text-align:left;
+                        color:#888;
+                        font-size:16px;
+                        margin-bottom:16px;
+                        background-color:#EEE;
+                        border-radius:999px;
+                        text-decoration:none;
+                        -webkit-transition:0.4s;
+                        transition:0.4s}
+
+                    .content-wrap aside nav a:hover{
+                        background-color:#313131;
+                        color:#AAA}
+                    .content-wrap main{
+                        -webkit-box-flex:1;
+                        -ms-flex:1 1 0%;
+                        flex:1 1 0%;
+                        padding:0px 16px}
+
+                    .content-wrap main .main-head{
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                        margin-left: 30%;
+                        margin-top: 20px;
+                      
+                        }
+
+                        .content-wrap main .main-head button{
+                            background-color: black;
+                            border-bottom-right-radius: 15px;
+                            width: 60px;
+                            font-family: 'Times New Roman', Times, serif;
+                            font-size: 20px;
+                            color:wheat;
+                        }
+                    .content-wrap main .main-head .search-box{
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                    
+                        -webkit-box-flex:1;
+                        -ms-flex:1 1 0%;
+                        flex:1 1 0%}
+                    .content-wrap main .main-head .search-box input{
+                        
+                        width:100%;
+                        height: 70px;
+                        max-width:500px;
+                        padding:10px;
+                        border-top-left-radius: 20px;
+                        
+                        background-color:transparent;
+                        -webkit-transition:0.4s;
+                        border: solid 1px black;
+                        transition:0.4s}
+                    .content-wrap main .main-head .search-box input ::-webkit-input-placeholder{
+                        color:#888}
+                    .content-wrap main .main-head .search-box input :-ms-input-placeholder{color:#888}
+                    .content-wrap main .main-head .search-box input ::-ms-input-placeholder{color:#888}
+                    .content-wrap main .main-head .search-box input ::placeholder{color:#888}
+                    .content-wrap main .main-head .search-box input:focus,
+                    .content-wrap main .main-head .search-box input:valid{
+                        background-color:transparent;
+                        color:black}
+                    .content-wrap main .anime-list{
+                        display:-webkit-box;
+                        display:-ms-flexbox;
+                        display:flex;
+                        -ms-flex-wrap:wrap;
+                        flex-wrap:wrap;
+                        margin-top:22px;
+                        margin-left: 60px;
+                    
+                        margin:px}
+                        
+                    .content-wrap main .anime-list .anime-card{
+                        -webkit-box-flex:1;
+                        -ms-flex:1 1 33.333%;
+                        flex:1 1 33.333%;
+                        max-width:18.693%;
+                        padding:5px;
+                        border-radius: 10px;
+                        background-color:whitesmoke; 
+                        margin: 50px;
+                        margin-left: 15px;}
+
+
+                        .content-wrap main .anime-list .anime-card h4{
+                            background-color:transparent;
+                            color:black ;
+                            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }  
+                    .content-wrap main .anime-list .anime-card a{
+                        text-decoration:none;}
+
+                    .content-wrap main .anime-list .anime-card figure{
+                        display:block;
+                        margin-bottom:6px}
+                    .content-wrap main .anime-list .anime-card figure img
+                    {display:block;
+                        ;
+                    width:100%;
+                    height:350px;
+                    -o-object-fit:cover;
+                    object-fit:cover;
+                    border-radius:16px;
+                    -webkit-box-shadow:0px 0px 0px rgba(0,0,0,0.15);
+                    box-shadow:0px 0px 0px rgba(0,0,0,0.15);
+                    -webkit-transition:0.4s;transition:0.4s}
+                    .content-wrap main .anime-list .anime-card h3
+                    {color:#313131}
+                    .content-wrap main .anime-list .anime-card:hover figure img{
+                        -webkit-box-shadow:0px 6px 12px rgba(0,0,0,0.25);
+                        box-shadow:0px 6px 12px rgba(0,0,0,0.25);
+                        -webkit-transform:scale(1.05);
+                        transform:scale(1.05)}
+    /* # sourceMappingURL=main.css.map */
